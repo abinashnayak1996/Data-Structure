@@ -1,0 +1,6 @@
+tuple1 = (3, 5, 1, 7, 2)
+list2 = list(tuple1)
+list2.append(12)
+list2.append(45)
+tuple1 = tuple(list2)
+print(tuple1)
